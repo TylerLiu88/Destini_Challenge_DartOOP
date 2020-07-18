@@ -1,11 +1,10 @@
-![App Brewery Banner](https://github.com/londonappbrewery/Images/blob/master/AppBreweryBanner.png)
-
+#Destini_Challenge
 
 # Destini 🤔
 
-## Our Goal
+## Goal
 
-In this challenge, you will be building a choose your own adventure game like Bandersnatch. In the process, you should apply your knowledge from the last module (Quizzler) to use Dart OOP principles to build a well organised project.
+In this challenge, I built a choose your own adventure game like Bandersnatch. I applied skills from all the modules to use Dart OOP principles and built a well organized project.
 
 ![Finished App](https://github.com/londonappbrewery/Images/blob/master/Destini.gif)
 
