@@ -46,6 +46,12 @@ class StoryBrain {
     _storyNumber = 0;
   }
 
+  void checkEndGame(int storyNum) {
+    if (storyNum == 3 || storyNum == 4 || storyNum == 5) {
+      restart();
+    }
+  }
+
   void nextStory(int choiceNumber) {
     switch (choiceNumber) {
       case 1:
@@ -54,10 +60,8 @@ class StoryBrain {
             _storyNumber = 2;
           } else if (_storyNumber == 2) {
             _storyNumber = 5;
-          } else if (_storyNumber == 3 ||
-              _storyNumber == 4 ||
-              _storyNumber == 5) {
-            restart();
+          } else {
+            checkEndGame(_storyNumber);
           }
         }
         break;
@@ -70,10 +74,8 @@ class StoryBrain {
             _storyNumber = 4;
           } else if (_storyNumber == 1) {
             _storyNumber = 3;
-          } else if (_storyNumber == 3 ||
-              _storyNumber == 4 ||
-              _storyNumber == 5) {
-            restart();
+          } else {
+            checkEndGame(_storyNumber);
           }
         }
         break;
